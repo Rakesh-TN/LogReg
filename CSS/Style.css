@@ -1,0 +1,35 @@
+.input {
+    border: none;
+    padding: 1rem;
+    border-radius: 1rem;
+    background: #e8e8e8;
+    box-shadow: 20px 20px 60px #c5c5c5,
+        -20px -20px 60px #ffffff;
+    transition: 0.3s;
+}
+
+.input:focus {
+    outline-color: #e8e8e8;
+    background: #e8e8e8;
+    box-shadow: inset 20px 20px 60px #c5c5c5,
+        inset -20px -20px 60px #ffffff;
+    transition: 0.3s;
+}
+
+.button {
+    color: #ecf0f1;
+    width: 150px;
+    font-size: 17px;
+    background-color: #e67e22;
+    border: 1px solid #f39c12;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 6px 0px #d35400;
+    transition: all .1s;
+}
+
+.button:active {
+    box-shadow: 0px 2px 0px #d35400;
+    position: relative;
+    top: 2px;
+}
